@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book-shop</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body onload="onInit()">
+
+    <div onclick="onAddBook()">creat a new book</div>
+
+    <table class="center">
+
+        <tbody class="books-table"></tbody>
+    </table>
+
+    <div class="modal" hidden>
+        <h5></h5>
+        <div class="rate"></div>
+        <img class="caverd-img">
+        <p></p>
+        <button onclick="onCloseModal()">Close</button>
+    </div>
+
+    
+
+
+
+    
+    <script src="js/util-service.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+</html>

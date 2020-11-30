@@ -1,0 +1,36 @@
+body{
+    background-color: whitesmoke;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.books-table{
+   
+}
+
+.cell{
+    height: 40px;
+    /* width: 100px; */
+    background-color: oldlace;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: black solid 1px; 
+}
+.head-cell{
+    text-align: center;
+    height: 40px;
+    /* width: 70px; */
+    padding: 10px;
+    margin: 10px;
+    border: black solid 2px; 
+}
+
+.cell-title{
+    width: 200px;
+}
+.caverd-img{
+    height: 300px;
+}
+
